@@ -35,6 +35,7 @@ void setup()
   
   // self explanatory
   Serial.write("For a list of commands, visit: \n");
+  Serial.write("Type AT commands  \n\n");
   // Send an "AT" command to the AT (without quotes)
   // if response is OK, then we are connected
   // and ready to program the BT module
